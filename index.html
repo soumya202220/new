@@ -1,0 +1,230 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>
+soumya
+    </title>
+
+    </head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width",initial-scale=1>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div id="demo"></div>
+    <h2>The XMLHttpRequest Object</h2>
+    <button type="button" onclick="loadDoc()">Change Content</button>
+   
+    
+    <script>
+    loadDoc = () => {
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function() {
+        document.getElementById("demo").innerHTML =
+        this.responseText;
+      }
+      xhttp.open("GET", "teext.html",true);
+      xhttp.send();
+    }
+    </script>
+    
+    </body>
+        <!--<img src="images/ic.jpg" width="25%" id="image"/>
+
+        <div id="para">haaaaaaaaaaaaaiiiiiii</div>
+<button onclick="testss()">click here</button>
+<button onclick="picchange()">CLICK HERE</button>
+<button onclick="picchang()">CLICKHere</button>-->
+
+<!--<div id="div1">hiiiiiiiiiiiiiiiiiiiiiiii</div>
+<div id="div2">wednesday</div> 
+
+    <button onclick="content()">click</button>-->
+
+   <!--<img src="images/ANOUT.png" id="img1">
+   <img src="images/deku.jpg" id="img2">
+   <button onclick="swap()">swap</button>-->
+   <!--<img src="images/Background.webp"id="imk">
+   <button onclick="hidden_show()">Hide</button>
+   <button onclick="hidden_show2()" id='b2'>Show</button>-->
+  
+
+<!--<img src="images/dpm.jpeg"  width="50px"height="50px"id="imgg">
+<button onclick="imghide()" id="buton">hide</button>-->
+<!--<div class="box">
+   
+
+    <form id="rgform">
+    <div id="error"></div>
+        <div>Name</div>
+<div><input type="text"name="fullname"id="fullname" /></div>
+
+<div>Email</div>
+<div><input type="text" id="email" /></div>
+
+<div>address</div>
+<div><input type="text" id="ad"></div>
+<div>Gender</div>
+<div><span>male<input type="radio" id="gender"name="gender" value="male" /><span>
+    <span>female<input type="radio" id="gender"name="gender" value="female"  /><span></span>
+    <span>trans<input type="radio" id="gender"name="gender" value="trans "/><span></span>
+    
+        
+        
+        <button onclick="validate1()" type="button">submit</button>
+        
+        </form>
+        
+       
+<script src="js/22.js"></script>
+<h1>JavaScript Strings</h1>
+<h2>The indexOf() Method</h2>
+
+<p>The indexOf() method accepts a second parameter as the starting position for the search:</p>
+<p id="demo"></p>
+
+<script>
+let text = "Please locate where 'locate' occurs!";
+let index = text.indexOf("locate",15);
+document.getElementById("demo").innerHTML = index; 
+</script>-->
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+
+<button type="button" onclick="loadDoc()">Change Content</button>
+<script src="js/script.js"></script>
+
+
+
+
+
+</html>-->
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Demonstrate fadeIn() with different parameters.</p>
+
+<button>Click to fade in boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<button id="stop">Stop sliding</button>
+
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert($("#w3s").attr("href"));
+  });
+});
+</script>
+</head>
+<body>
+
+<p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+
+<button>Show href Value</button>
+
+</body>
+</html>
+assignement 6-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<form id="form">
+ <div class="div1">
+            <div>name</div>
+          <input type="text" id="name" name="name" /></div>
+        <div id="err0"></div>
+        <div class="div1">
+            <div>email</div>
+            <div><input type="email" id="mail" name="mail" /></div>
+        </div>
+        <div id="err1"></div>
+        <div class="div1">
+            <div>password</div>
+            <div><input type="password" id="password" name="password" /></div>
+        </div>
+        <div id="error2"></div>
+      <div class="div1">
+          <div><input type="reset" value="clear" />
+                <input type="button" value="Registration" id="b1">
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="js/22.js"></script>
+    </form>
+
+</body>
+
+</html>
